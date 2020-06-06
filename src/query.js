@@ -45,6 +45,7 @@ module.exports.dimensionFilterKey = {
   appVersion: 'appVersion',
   campaigns: 'campaignId',
   device: 'platform',
+  sourceType: 'source',
   platformVersion: 'platformVersion',
   territory: 'storefront',
   region: 'region',
@@ -56,6 +57,14 @@ module.exports.platform = {
   iPad: 'iPad',
   iPod: 'iPod',
   appleTV: 'AppleTV'
+}
+
+module.exports.source = {
+  Search: 'Search',
+  Browse: 'Other',
+  AppReferrer: 'AppRef',
+  WebReferrer: 'WebRef',
+  Unknown: 'Unknown'
 }
 
 module.exports.frequency = {
